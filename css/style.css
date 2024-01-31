@@ -127,7 +127,7 @@
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/*AGGIUNGO PROPRIETA' META CONTENT IN HTML*/
+ /* TABLET same proc*/
 
 @media (max-width: 1140px) {
   .container {
@@ -136,7 +136,6 @@
     padding: 0 20px;
   }
 }
-/* TABLET same proc*/
 
 /* MOBILE */
 @media (max-width: 600px) {
