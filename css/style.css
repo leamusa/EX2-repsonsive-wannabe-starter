@@ -1,46 +1,46 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
- *,
- *::before,
- *::after {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
- 
- body {
-   font-family: "Nunito Sans", sans-serif;
-   color: #b8c1ec;
-   background: #232946;
- }
- 
- h1,
- h2,
- h3 {
-   color: #eebbc3;
- }
- 
- h1 {
-   margin-bottom: 3rem;
-   font-size: 2.5rem;
- }
- 
- h2 {
-   margin-bottom: 2.5rem;
-   font-size: 2rem;
-   color: #fffffe;
- }
- 
- h3 {
-   margin-bottom: 1rem;
-   font-size: 1.5rem;
- }
- 
- img {
-   max-width: 100%;
- }
- 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  color: #b8c1ec;
+  background: #232946;
+}
+
+h1,
+h2,
+h3 {
+  color: #eebbc3;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  color: #fffffe;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
 /************************************************
     UTILITIES
  ************************************************/
@@ -127,7 +127,7 @@
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- /* TABLET same proc*/
+/* TABLET same proc*/
 
 @media (max-width: 1140px) {
   .container {
@@ -152,18 +152,18 @@
   .row {
     flex-wrap: wrap;
   }
-/* E QUI SOTTO PER DARE SFONDO GRIGIO 34,34,34,255 ALL'ULTIMA SECTION SOVRASCRIVENDO CSS SOPRA */
+  /* E QUI SOTTO PER DARE SFONDO GRIGIO 34,34,34,255 ALL'ULTIMA SECTION SOVRASCRIVENDO CSS SOPRA */
 
-.why-us {
-  background-color: rgba(34, 34, 34, 255);
-  margin-bottom: 0;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
+  .why-us {
+    background-color: rgba(34, 34, 34, 255);
+    margin-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 
-.steps {
-  margin-bottom: 0;
-}
+  .steps {
+    margin-bottom: 0;
+  }
 }
 /* E QUI SOTTO PER DARE SFONDO GRIGIO 34,34,34,255 ALL'ULTIMA SECTION SOVRASCRIVENDO CSS SOPRA */
 
